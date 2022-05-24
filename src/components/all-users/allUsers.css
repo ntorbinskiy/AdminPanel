@@ -1,0 +1,18 @@
+.grid {
+    margin: 50px 100px 0px 100px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: auto auto;
+}
+.first_row_item {
+    color: gray;
+    border-bottom: 4px rgb(74, 73, 73) solid;
+    border-radius: 1px;
+    margin: 0;
+}
+.second_item1 {
+    grid-column-start: -3;
+}
+
+

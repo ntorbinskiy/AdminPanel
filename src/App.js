@@ -1,9 +1,10 @@
 import './App.css';
 import CreatingUser from './components/creating-user/CreatingUser';
+import AllUsers from './components/all-users/allUsers';
 function App() {
   return (
     <div className="App">
-      <CreatingUser/>
+      <AllUsers/>
     </div>
   );
 }

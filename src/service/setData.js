@@ -1,6 +1,6 @@
 export const SetItem = (email, password) => {
-  console.log("Posted");
   localStorage.setItem(email, password);
+  console.log(`${email}:${password} posted`);
 };
 
 export const DeleteItem = (email) => {
